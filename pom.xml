@@ -4,4 +4,22 @@
   <artifactId>internship</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>internProject</name>
+    <properties>
+      <selenium.version>3.6.0</selenium.version>
+      <testng.version>6.9.9</testng.version>
+   	</properties>
+   <dependencies>
+         <dependency>
+         <groupId>org.seleniumhq.selenium</groupId>
+         <artifactId>selenium-java</artifactId>
+         <version>${selenium.version}</version>
+      </dependency>
+      <dependency>
+         <groupId>org.testng</groupId>
+         <artifactId>testng</artifactId>
+         <version>${testng.version}</version>
+      </dependency>
+   </dependencies>
+   
+
 </project>
